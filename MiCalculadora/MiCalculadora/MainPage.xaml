@@ -61,7 +61,54 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-           
+            <Button x:Name="btnMS" Clicked="btnMS_Clicked" Style="{StaticResource BotonAdicional}" 
+                    Grid.Row="0" Grid.Column="0" Text="MS"/>
+            <Button x:Name="btnMR" Clicked="btnMR_Clicked" Style="{StaticResource BotonAdicional}" 
+                    Grid.Row="0" Grid.Column="1" Text="MR" IsEnabled="False"/>
+            <Button x:Name="btnClear" Clicked="btnClear_Clicked" Style="{StaticResource BotonAdicional}" 
+                    Grid.Row="0" Grid.Column="2" Text="C" Grid.ColumnSpan="2"/>
+
+            <Button x:Name="btnInverso" Clicked="btnInverso_Clicked" Style="{StaticResource BotonOperaciones}" 
+                    Grid.Row="1" Grid.Column="0" Text="1/x" />
+            <Button x:Name="btnCuadrado" Clicked="btnCuadrado_Clicked" Style="{StaticResource BotonOperaciones}" 
+                    Grid.Row="1" Grid.Column="1" Text="x&#178;" />
+            <Button x:Name="btnRaiz" Clicked="btnRaiz_Clicked" Style="{StaticResource BotonOperaciones}" 
+                    Grid.Row="1" Grid.Column="2" Text="&#x221A;" />
+            <Button x:Name="btnDivision" Clicked="btnDivision_Clicked" Style="{StaticResource BotonOperaciones}" 
+                    Grid.Row="1" Grid.Column="3" Text="&#x00F7;" />
+
+            <Button x:Name="btn7" Clicked="btnNum_Clicked" Style="{StaticResource BotonNumero}" 
+                    Grid.Row="2" Grid.Column="0" Text="7"/>
+            <Button x:Name="btn8" Clicked="btnNum_Clicked" Style="{StaticResource BotonNumero}" 
+                    Grid.Row="2" Grid.Column="1" Text="8"/>
+            <Button x:Name="btn9" Clicked="btnNum_Clicked" Style="{StaticResource BotonNumero}" 
+                    Grid.Row="2" Grid.Column="2" Text="9"/>
+            <Button x:Name="btn4" Clicked="btnNum_Clicked" Style="{StaticResource BotonNumero}" 
+                    Grid.Row="3" Grid.Column="0" Text="4"/>
+            <Button x:Name="btn5" Clicked="btnNum_Clicked" Style="{StaticResource BotonNumero}" 
+                    Grid.Row="3" Grid.Column="1" Text="5"/>
+            <Button x:Name="btn6" Clicked="btnNum_Clicked" Style="{StaticResource BotonNumero}" 
+                    Grid.Row="3" Grid.Column="2" Text="6"/>
+            <Button x:Name="btn1" Clicked="btnNum_Clicked" Style="{StaticResource BotonNumero}" 
+                    Grid.Row="4" Grid.Column="0" Text="1"/>
+            <Button x:Name="btn2" Clicked="btnNum_Clicked" Style="{StaticResource BotonNumero}" 
+                    Grid.Row="4" Grid.Column="1" Text="2"/>
+            <Button x:Name="btn3" Clicked="btnNum_Clicked" Style="{StaticResource BotonNumero}" 
+                    Grid.Row="4" Grid.Column="2" Text="3"/>
+            <Button x:Name="btn0" Clicked="btnNum_Clicked" Style="{StaticResource BotonNumero}" 
+                    Grid.Row="5" Grid.Column="0" Text="0" Grid.ColumnSpan="2"/>
+            <Button x:Name="btnPunto" Clicked="btnNum_Clicked" Style="{StaticResource BotonNumero}" 
+                    Grid.Row="5" Grid.Column="2" Text="."/>
+
+            <Button x:Name="btnMultiplicacion" Clicked="btnOperacion_Clicked" Style="{StaticResource BotonOperaciones}" 
+                    Grid.Row="2" Grid.Column="3"  Text="x" TextTransform="None"/>
+            <Button x:Name="btnResta" Clicked="btnOperacion_Clicked" Style="{StaticResource BotonOperaciones}" 
+                    Grid.Row="3" Grid.Column="3"  Text="&#x2212;" />
+            <Button x:Name="btnSuma" Clicked="btnOperacion_Clicked" Style="{StaticResource BotonOperaciones}" 
+                    Grid.Row="4" Grid.Column="3"  Text="+" />
+            <Button x:Name="btnIgual" Clicked="btnIgual_Clicked" FontSize="30" BackgroundColor="#FF64BBBB" 
+                    Grid.Row="5" Grid.Column="3"  Text="=" />
+
 
 
 
