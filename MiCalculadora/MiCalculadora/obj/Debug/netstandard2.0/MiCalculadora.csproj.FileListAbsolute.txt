@@ -1,0 +1,15 @@
+C:\Users\zunig\source\repos\Xamarin\MiCalculadora\MiCalculadora\MiCalculadora\bin\Debug\netstandard2.0\MiCalculadora.deps.json
+C:\Users\zunig\source\repos\Xamarin\MiCalculadora\MiCalculadora\MiCalculadora\bin\Debug\netstandard2.0\MiCalculadora.dll
+C:\Users\zunig\source\repos\Xamarin\MiCalculadora\MiCalculadora\MiCalculadora\bin\Debug\netstandard2.0\MiCalculadora.pdb
+C:\Users\zunig\source\repos\Xamarin\MiCalculadora\MiCalculadora\MiCalculadora\obj\Debug\netstandard2.0\MiCalculadora.csproj.AssemblyReference.cache
+C:\Users\zunig\source\repos\Xamarin\MiCalculadora\MiCalculadora\MiCalculadora\obj\Debug\netstandard2.0\MiCalculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zunig\source\repos\Xamarin\MiCalculadora\MiCalculadora\MiCalculadora\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\zunig\source\repos\Xamarin\MiCalculadora\MiCalculadora\MiCalculadora\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\zunig\source\repos\Xamarin\MiCalculadora\MiCalculadora\MiCalculadora\obj\Debug\netstandard2.0\MiCalculadora.AssemblyInfoInputs.cache
+C:\Users\zunig\source\repos\Xamarin\MiCalculadora\MiCalculadora\MiCalculadora\obj\Debug\netstandard2.0\MiCalculadora.AssemblyInfo.cs
+C:\Users\zunig\source\repos\Xamarin\MiCalculadora\MiCalculadora\MiCalculadora\obj\Debug\netstandard2.0\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\zunig\source\repos\Xamarin\MiCalculadora\MiCalculadora\MiCalculadora\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\zunig\source\repos\Xamarin\MiCalculadora\MiCalculadora\MiCalculadora\obj\Debug\netstandard2.0\MiCalculadora.dll
+C:\Users\zunig\source\repos\Xamarin\MiCalculadora\MiCalculadora\MiCalculadora\obj\Debug\netstandard2.0\refint\MiCalculadora.dll
+C:\Users\zunig\source\repos\Xamarin\MiCalculadora\MiCalculadora\MiCalculadora\obj\Debug\netstandard2.0\MiCalculadora.pdb
+C:\Users\zunig\source\repos\Xamarin\MiCalculadora\MiCalculadora\MiCalculadora\obj\Debug\netstandard2.0\ref\MiCalculadora.dll

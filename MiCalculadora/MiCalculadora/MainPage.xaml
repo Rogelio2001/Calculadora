@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MiCalculadora.MainPage">
+
+   
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button" x:Key="BotonNumero">
+                <Setter Property="FontSize" Value="25"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="Background" Value="#424242"/>
+            </Style>
+            <Style TargetType="Button" x:Key="BotonAdicional">
+                <Setter Property="FontSize" Value="25"/>
+                <Setter Property="Background" Value="#d6d6d6"/>
+            </Style>
+            <Style TargetType="Button" x:Key="BotonOperaciones">
+                <Setter Property="FontSize" Value="25"/>
+                <Setter Property="Background" Value="Red"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <!--Viene el grid-->
+    <Grid BackgroundColor="#2F2F32" Padding="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height=".4*"/>
+            <RowDefinition Height=".6*"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0"
+               Text="Mi calculadora"
+               FontSize="Large"
+               BackgroundColor="Black"
+               TextColor="White"
+               HorizontalTextAlignment="Center"
+               Padding="20"/>
+        
+        <Frame CornerRadius="5" Grid.Row="1"
+               BackgroundColor="White"
+               HeightRequest="80">
+            <Label x:Name="lblScreen" Text="0"
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="End"
+                   FontSize="50" LineBreakMode="TailTruncation"/>
+        </Frame>
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+           
+
+
+
+        </Grid>
+    </Grid>   
+    
+    
+    
+
+
+
+</ContentPage>
+    
+    
